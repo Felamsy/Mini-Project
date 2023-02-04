@@ -773,7 +773,7 @@ you can change the time zone to whatever country you are in but as for me, thatâ
 
   - name: print hostname on server
     tags: printf
-    shell: echo ######"<h1> This is my server name $ (hostname -f)</h1>" > /var/www/html/index.html
+    shell: echo"<hh1> This is my server name $ (hostname -f)</hh1>" > /var/www/html/index.html
 
   - name: restart apache2
     tags: restart
