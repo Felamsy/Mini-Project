@@ -396,7 +396,7 @@ all this should also be in the main.tf file
 
 In Terraform, you can create EC2 instances using the "aws_instance" resource
 
-# creating instance 1
+##### creating instance 1
 
 resource "aws_instance" "Altschool1" {
 ami = "ami-00874d747dde814fa"
