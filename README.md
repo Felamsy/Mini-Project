@@ -568,7 +568,7 @@ A listener is a process that checks for connection requests, using the protocol 
 
 The rules that you define for a listener determine how the load balancer routes request to the targets in one or more target groups.
 
-# Create the listener
+### Create the listener
 
 resource "aws_lb_listener" "Altschool-listener" {
 load_balancer_arn = aws_lb.Altschool-load-balancer.arn
